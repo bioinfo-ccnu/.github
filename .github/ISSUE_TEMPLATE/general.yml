@@ -1,0 +1,22 @@
+name: "交流与资源建议 / Questions and resources"
+description: "提问、分享资源或讨论协作 / Ask a question or suggest a resource"
+title: "[交流] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "类型 / Type"
+      options:
+        - "使用问题 / Question"
+        - "资源建议 / Resource"
+        - "协作交流 / Collaboration"
+        - "组织首页改进 / Organization profile"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "内容与背景 / Context"
+      description: "说明你的问题或建议；分享资源时请附来源链接和简短介绍。请只填写适合公开的信息。"
+    validations:
+      required: true

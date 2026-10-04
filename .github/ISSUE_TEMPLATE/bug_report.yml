@@ -1,0 +1,33 @@
+name: "问题反馈 / Bug report"
+description: "报告安装、运行或分析结果问题 / Report a reproducible problem"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "请优先在受影响的项目仓库提交。提供公开或合成示例，不要粘贴令牌、个人信息或受限数据。 / Use the affected project's tracker and share only public or synthetic examples."
+  - type: textarea
+    id: problem
+    attributes:
+      label: "问题描述 / Problem"
+      description: "你遇到了什么问题？预期结果与实际结果分别是什么？"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "复现步骤 / Steps to reproduce"
+      description: "提供最小输入、执行命令和操作步骤；如暂时无法复现，请说明。"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "环境与版本 / Environment"
+      description: "操作系统、软件版本、依赖版本、项目版本或 commit。"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "日志与补充信息 / Logs and context"
+      description: "相关报错、截图或已尝试的解决方式。提交前检查并移除敏感信息。"

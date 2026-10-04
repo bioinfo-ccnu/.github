@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">bioinfo-ccnu</title>
+  <desc id="desc">Bioinformatics, reproducible research and collaboration, with a DNA helix and a connected network.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102a43"/><stop offset="1" stop-color="#104b4a"/></linearGradient>
+    <linearGradient id="dna" x2="0" y2="1"><stop stop-color="#62dfcb"/><stop offset="1" stop-color="#82b9f7"/></linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="20" fill="url(#bg)"/>
+  <circle cx="1060" cy="50" r="190" fill="#66d9cc" opacity=".035"/>
+  <circle cx="1040" cy="50" r="110" fill="none" stroke="#66d9cc" opacity=".08"/>
+  <g fill="none" stroke="#73bac2" stroke-width="2" opacity=".3">
+    <path d="M858 85 940 54 1015 102 1092 65 1130 142 1065 217 976 190 893 223 858 85 976 190 1015 102 1065 217 M940 54 976 190 M1015 102 1130 142"/>
+  </g>
+  <g fill="#79d9cb">
+    <circle cx="858" cy="85" r="5"/><circle cx="940" cy="54" r="7"/><circle cx="1015" cy="102" r="6"/>
+    <circle cx="1092" cy="65" r="5"/><circle cx="1130" cy="142" r="7"/><circle cx="1065" cy="217" r="5"/>
+    <circle cx="976" cy="190" r="7"/><circle cx="893" cy="223" r="5"/>
+  </g>
+  <g transform="translate(62 45)" fill="none" stroke="url(#dna)" stroke-width="4" stroke-linecap="round">
+    <path d="M0 0 C88 40 88 55 0 95 C-44 115 -44 150 44 190 M44 0 C-44 40 -44 55 44 95 C132 135 132 150 44 190"/>
+    <path d="M0 0H44 M23 20H59 M39 40H65 M39 55H65 M23 75H59 M0 95H44 M-18 115H8 M-21 135H5 M-5 155H21 M17 175H47" stroke-width="2" opacity=".7"/>
+  </g>
+  <rect x="211" y="70" width="43" height="4" rx="2" fill="#62dfcb"/>
+  <text x="210" y="145" fill="#f4f9fc" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-1">bioinfo-ccnu</text>
+  <text x="213" y="191" fill="#b9d6df" font-family="Arial, Helvetica, sans-serif" font-size="21">Bioinformatics · Reproducible Research · Collaboration</text>
+</svg>
