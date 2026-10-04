@@ -22,4 +22,8 @@
 - **Protein sequence, structure, and function** — developing computational methods to connect sequence information with biological properties.
 - **Peptide therapeutics and bioinformatics tools** — exploring peptide discovery and building practical tools for biological research.
 
+## Research Tools
+
+- **[Scientific Plotting Skills](https://github.com/bioinfo-ccnu/scientific-plotting-skills)** — reusable Python and R workflows for reproducible scientific figures, flexible styles, multi-panel layouts, and PDF/SVG/PNG/TIFF exports. [Explore the style gallery](https://github.com/bioinfo-ccnu/scientific-plotting-skills/tree/main/examples/gallery).
+
 Research ideas and resources are welcome in [Discussions](https://github.com/bioinfo-ccnu/.github/discussions). For collaboration enquiries, [get in touch](https://wangleiofficial.github.io/contact/).
