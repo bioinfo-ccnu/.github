@@ -1,15 +1,15 @@
-## 改动目的 / Purpose
+## Purpose
 
-<!-- 说明解决的问题与改动后行为；有相关 Issue 时填写链接。 -->
+<!-- Explain the problem and the resulting behavior. Link related issues. -->
 
-## 主要改动 / Changes
+## Changes
 
-<!-- 简述需要审阅者关注的改动及必要的设计取舍。 -->
+<!-- Summarize the main changes and any design tradeoffs reviewers should consider. -->
 
-## 验证 / Validation
+## Validation
 
-<!-- 写出已运行的命令、示例或检查与结果。文档改动可说明内容、链接和渲染检查。尚未完成的验证请如实注明。 -->
+<!-- List the commands, examples, or checks performed and their results. For documentation changes, review wording, links, and rendering. State any incomplete validation. -->
 
-## 对复现与结果的影响 / Reproducibility and results
+## Reproducibility and Results
 
-<!-- 涉及分析逻辑、数据、参数或环境时填写影响；不适用可写“无 / N/A”。请勿上传受限数据或敏感信息。 -->
+<!-- Explain effects on analysis, data, parameters, environments, or results. Write N/A if not applicable. Do not attach restricted data or sensitive information. -->

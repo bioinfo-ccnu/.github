@@ -1,41 +1,41 @@
-# 新项目指南
+# Starting a Research Project
 
-项目应从明确的问题、可运行的最小示例和简洁 README 开始，随着实际需求扩展。下面是建议，可根据项目规模调整。
+Start with a clear research question, a runnable minimal example, and a concise README. Extend the structure as the project grows.
 
-## 命名与简介
+## Naming and discovery
 
-使用简短、易读的小写英文名称，以连字符分隔单词。仓库简介用一句话说明项目解决的问题；添加与实际内容一致的 Topics，方便检索。不要用空仓库替代项目说明。
+Use a short, descriptive name with lowercase words separated by hyphens. Existing published tool names may retain their established spelling. Write a one-sentence description and add topics that match the actual contents.
 
-## README 应回答的问题
+## What the README should explain
 
-1. 项目做什么，适用于什么数据或研究问题？
-2. 如何安装，需要哪些软件版本和资源？
-3. 如何运行最小示例，应该得到什么输出？
-4. 数据来自哪里，如何获取，是否有访问限制？
-5. 如何复现结果，如何引用，使用何种许可证？
+1. What problem does the project address, and what data does it support?
+2. How is it installed, and what software and hardware are required?
+3. How can a reader run the smallest example and recognize a successful result?
+4. Where do data and model weights come from, and what access conditions apply?
+5. How can results be reproduced, cited, and reused?
 
-可复制 [`repository-readme-template.md`](repository-readme-template.md) 作为起点，填写真实内容并删除不适用的章节。
+Copy the [README template](repository-readme-template.md), fill in real details, and remove sections that do not apply.
 
-## 推荐结构
+## Suggested structure
 
 ```text
 project-name/
 ├── README.md
-├── LICENSE                # 按项目权属与用途明确选择
-├── environment.yml        # 或 requirements.txt、renv.lock 等
-├── src/                   # 可复用代码
-├── scripts/               # 分析入口脚本
-├── examples/              # 小型公开或合成示例
-├── docs/                  # 方法、参数和输出说明
-└── tests/                 # 对关键行为有意义的检查
+├── LICENSE                # Choose according to the project's ownership and use
+├── environment.yml        # Or requirements.txt, renv.lock, etc.
+├── src/                   # Reusable code
+├── scripts/               # Analysis entry points
+├── examples/              # Small public or synthetic examples
+├── docs/                  # Methods, parameters, and output explanations
+└── tests/                 # Meaningful checks of important behavior
 ```
 
-## 发布前检查
+## Before publishing
 
-- 从干净环境运行文档中的最小示例，并记录预期结果。
-- 检查数据来源、依赖版本、关键参数和随机种子是否齐全。
-- 检查 `.gitignore`，避免提交令牌、临时文件、大型原始数据或个人环境路径。
-- 按项目实际情况选择许可证；代码与数据许可可能不同。
-- 需要论文或版本引用时，提供准确的文献信息与版本标识；已有 DOI 时再填写。
+- Run the documented example in a clean environment and record expected output.
+- Document data versions, dependencies, key parameters, and random seeds.
+- Review `.gitignore` and avoid committing credentials, temporary files, large raw datasets, or machine-specific paths.
+- Select the project's license according to ownership and intended reuse; data and model weights may have separate terms.
+- Provide accurate citations and version identifiers. Add a DOI only when one exists.
 
-组织默认提供贡献指南和反馈模板。需要不同说明时，可在项目仓库中添加自己的对应文件。
+The organization supplies default contribution, conduct, support, security, and issue/PR templates. A project can override these with its own files. Licenses and CODEOWNERS must be configured separately for each repository.

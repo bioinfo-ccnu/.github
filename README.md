@@ -1,4 +1,4 @@
-# bioinfo-ccnu
+# CCNU Bioinformatics
 
 Organization profile and shared repository resources for [bioinfo-ccnu](https://github.com/bioinfo-ccnu).
 
@@ -10,14 +10,19 @@ Learn more about [Lei Wang's research and publications](https://wangleiofficial.
 
 - [`profile/README.md`](profile/README.md): the public organization homepage.
 - [`profile/banner.svg`](profile/banner.svg): the homepage banner.
+- [`profile/avatar.png`](profile/avatar.png): the organization avatar.
 
 ## Shared Resources
 
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution guidelines.
 - [`SUPPORT.md`](SUPPORT.md): help and feedback channels.
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): community expectations.
+- [`SECURITY.md`](SECURITY.md): private vulnerability reporting.
 - [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/): issue forms.
 - [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md): pull request template.
 - [`docs/starting-a-project.md`](docs/starting-a-project.md): guidance for new repositories.
 - [`docs/repository-readme-template.md`](docs/repository-readme-template.md): a reusable project README template.
+
+These shared resources are in English. Projects can provide their own overrides; licenses and CODEOWNERS are configured separately for each repository.
 
 To update the organization homepage, edit `profile/README.md` on the default branch. The banner URL currently uses `main`.

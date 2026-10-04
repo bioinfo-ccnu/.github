@@ -1,10 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bioinfo-ccnu/.github/main/profile/banner.svg" alt="bioinfo-ccnu — AI for Biomolecular Research" width="100%">
+  <img src="https://raw.githubusercontent.com/bioinfo-ccnu/.github/main/profile/banner.svg" alt="CCNU Bioinformatics — AI for Biomolecular Research" width="100%">
 </p>
 
 <p align="center">
   <a href="https://wangleiofficial.github.io/">Lei Wang's Homepage</a> ·
-  <a href="https://github.com/orgs/bioinfo-ccnu/repositories">Research Projects</a>
+  <a href="https://github.com/orgs/bioinfo-ccnu/repositories">Projects</a> ·
+  <a href="https://scholar.google.com/citations?user=ZA93LOUAAAAJ&amp;hl=en">Google Scholar</a> ·
+  <a href="https://orcid.org/0000-0002-0168-9730">ORCID</a>
 </p>
 
 ## About
@@ -20,4 +22,4 @@
 - **Protein sequence, structure, and function** — developing computational methods to connect sequence information with biological properties.
 - **Peptide therapeutics and bioinformatics tools** — exploring peptide discovery and building practical tools for biological research.
 
-For more about my research and publications, visit [my homepage](https://wangleiofficial.github.io/).
+Research ideas and resources are welcome in [Discussions](https://github.com/bioinfo-ccnu/.github/discussions). For collaboration enquiries, [get in touch](https://wangleiofficial.github.io/contact/).

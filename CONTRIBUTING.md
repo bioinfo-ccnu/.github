@@ -1,43 +1,34 @@
-# 参与贡献 · Contributing
+# Contributing
 
-欢迎提交代码改进、文档修正、可复现示例、问题反馈和学习资源。中文和英文均可。具体项目有自己的贡献说明时，请优先遵循项目要求。
+We welcome code improvements, documentation fixes, reproducible examples, and research resources. Follow a project's own contribution instructions when available.
 
-## 提出问题或建议
+## Questions and suggestions
 
-先查看 README 和已有 Issue，确认是否已有说明或相关讨论。项目问题请在对应仓库提交；组织首页、资源建议或协作想法请在 [`.github` 仓库](https://github.com/bioinfo-ccnu/.github/issues/new/choose) 提交。
+- For installation, software behavior, or analysis results, use the affected project's issue tracker.
+- For research discussions and resource sharing, use [Discussions](https://github.com/bioinfo-ccnu/.github/discussions).
+- For the organization profile and shared templates, open an [issue](https://github.com/bioinfo-ccnu/.github/issues/new/choose).
 
-问题反馈请说明：
+Search existing issues before opening a new one. Include the project version, environment, expected and observed behavior, and a minimal reproducible example. Discuss substantial changes before implementation.
 
-- 使用的版本、运行环境与实际命令；
-- 预期结果与实际结果；
-- 能触发问题的最小示例、必要日志，以及你已尝试的解决方式。
+## Pull requests
 
-大型功能或研究流程调整，建议先用 Issue 讨论目标与验证方法，再投入实现。
+1. Fork the repository and create a focused branch, such as `docs/install-guide` or `fix/sample-order`.
+2. Keep each pull request focused on one problem.
+3. Update affected documentation, examples, and environment specifications.
+4. Run relevant existing checks. For analysis changes, describe the example input and expected output.
+5. Explain the purpose, link related issues, and report the checks performed and their results. State any validation that remains incomplete.
 
-## 提交 Pull Request
+For text-only changes, review wording, links, and rendering. For analysis logic, provide checks that can detect the problem or validate the new behavior.
 
-1. Fork 仓库，从默认分支创建描述清晰的工作分支，例如 `docs/install-guide` 或 `fix/sample-order`。
-2. 每个 PR 聚焦一个问题，尽量让改动容易审阅。
-3. 同步更新受影响的文档、运行示例和环境说明。
-4. 运行项目已有的相关检查；分析流程应说明用于验证的示例输入和预期输出。
-5. 在 PR 中说明改动目的、相关 Issue 和验证结果。未能完成的验证请如实记录。
+## Reproducible research
 
-仅修改本组织介绍或文本时，检查内容、链接与渲染即可。涉及分析逻辑时，请提供能发现该问题或验证新行为的检查。
+- Record data provenance, access conditions, and relevant accessions or DOIs.
+- Specify dependency versions, important parameters, and random seeds where applicable.
+- Use small public or synthetic examples. Keep large datasets and model weights in appropriate repositories or storage services and link to them.
+- Explain how method changes affect results, rather than providing screenshots alone.
+- Cite relevant methods, software, and publications. Confirm that you have permission to share contributed code, documentation, and data.
+- Do not include credentials, personal identifiers, restricted clinical data, or confidential material in public files and discussions.
 
-## 科研代码与复现
+## Community
 
-- 明确数据来源、访问方式与许可；必要时记录 accession、DOI 或下载链接。
-- 记录依赖版本、主要参数和随机种子；随机结果同时说明允许的误差。
-- 优先使用小型公开数据或合成数据作为示例，避免将大文件直接提交到 Git。
-- 修改分析方法时，解释对结果的影响；不要只提供截图或无法运行的片段。
-- 引用参考方法、软件和论文；贡献代码、文档或数据前确认有权分享。
-
-公开的 Issue、日志和代码请勿包含访问令牌、个人身份信息、受限临床资料或未获授权的数据；可使用脱敏或合成示例说明问题。
-
-## 协作方式
-
-讨论应围绕具体问题和证据展开，尊重不同背景的贡献者。遇到争议时，解释复现步骤或设计取舍，避免针对个人。
-
-## English quick guide
-
-Read the repository's own instructions first. Open an issue with a minimal example, environment details, and expected versus observed behavior. Keep pull requests focused and document the checks you ran. For research workflows, record data provenance, dependency versions, parameters, and reproducibility details. Use public or synthetic examples and ensure that you have permission to share contributed material.
+Communicate respectfully and focus on evidence and reproducible examples. See our [Code of Conduct](CODE_OF_CONDUCT.md).

@@ -1,1 +1,8 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Research discussions
+    url: https://github.com/bioinfo-ccnu/.github/discussions
+    about: Discuss research ideas, ask general questions, and share resources.
+  - name: Collaboration enquiries
+    url: https://wangleiofficial.github.io/contact/
+    about: Contact Lei Wang about research collaboration.

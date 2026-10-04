@@ -1,50 +1,50 @@
-<!-- 将本文件复制为新项目的 README.md，填写方括号内容，删除不适用章节和本注释。 -->
-# [项目名称]
+<!-- Copy this file to a project's README.md, replace bracketed fields, and remove unused sections and this comment. -->
+# [Project Name]
 
-[一句话说明项目用途、适用的数据或研究问题。]
+[One sentence describing the purpose and the supported research question or data.]
 
-## 功能与适用范围
+## Features and Scope
 
-- [核心功能]
-- [适用场景与已知限制]
+- [Core functionality]
+- [Use cases and known limitations]
 
-## 安装
+## Installation
 
-**已验证环境：**[操作系统、语言及版本、主要依赖、必要硬件。]
+**Verified environment:** [Operating system, language version, dependencies, and required hardware.]
 
-[列出可直接运行的安装命令；依赖尽量由环境文件记录。]
+[Provide executable installation commands and a dependency/environment file.]
 
-## 快速开始
+## Quick Start
 
-[提供示例数据的位置或下载方式、完整运行命令、预期输出及大致资源需求。]
+[Provide example data or a download link, a complete command, expected output, and approximate resource requirements.]
 
-## 输入与输出
+## Inputs and Outputs
 
-| 项目 | 说明 |
+| Item | Description |
 | --- | --- |
-| 输入 | [格式、必需字段、单位及示例] |
-| 输出 | [文件、字段及解读方式] |
-| 主要参数 | [默认值与选择依据] |
+| Input | [Format, required fields, units, and example] |
+| Output | [Files, fields, and interpretation] |
+| Key parameters | [Defaults and selection rationale] |
 
-## 数据与复现
+## Data and Reproducibility
 
-- 数据来源：[公开链接、accession 或 DOI；记录数据版本。]
-- 数据许可与访问条件：[许可、限制和获取方式。]
-- 复现步骤：[从输入到结果的执行顺序、配置和关键参数。]
-- 随机性：[涉及随机过程时记录种子与结果容差。]
+- Data source: [Public URL, accession, or DOI; include the data version.]
+- Access and licensing: [Conditions and instructions for obtaining data or model weights.]
+- Reproduction: [Execution order, configuration, and key parameters.]
+- Randomness: [Seeds and result tolerances where applicable.]
 
-## 验证
+## Validation
 
-[说明测试或示例的执行命令与通过标准；必要时说明尚未验证的环境。]
+[Provide relevant test or example commands, passing criteria, and environments not yet verified.]
 
-## 贡献与反馈
+## Contributing and Support
 
-欢迎提交 Issue 或 Pull Request。参与方式见[组织贡献指南](https://github.com/bioinfo-ccnu/.github/blob/main/CONTRIBUTING.md)；本项目有单独要求时，在这里说明。
+Use this project's issue tracker for bugs and questions. See the [organization contribution guide](https://github.com/bioinfo-ccnu/.github/blob/main/CONTRIBUTING.md), or state project-specific requirements here.
 
-## 引用
+## Citation
 
-[填写真实的方法、软件或论文引用。若暂无正式引用，注明可引用仓库 URL 与版本；不要编造 DOI。]
+[Provide accurate software, method, or paper citations. If there is no formal citation, provide the repository URL and version; do not invent a DOI.]
 
-## 许可证
+## License
 
-[填写本项目实际采用的许可证并链接 LICENSE；数据许可单独注明。]
+[State the chosen license and link to LICENSE. Describe data or model licenses separately.]

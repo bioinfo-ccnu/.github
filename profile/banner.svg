@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-  <title id="title">bioinfo-ccnu</title>
+  <title id="title">CCNU Bioinformatics</title>
   <desc id="desc">AI for biomolecular research, with a DNA helix and a connected network.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102a43"/><stop offset="1" stop-color="#104b4a"/></linearGradient>
@@ -21,6 +21,6 @@
     <path d="M0 0H44 M23 20H59 M39 40H65 M39 55H65 M23 75H59 M0 95H44 M-18 115H8 M-21 135H5 M-5 155H21 M17 175H47" stroke-width="2" opacity=".7"/>
   </g>
   <rect x="211" y="70" width="43" height="4" rx="2" fill="#62dfcb"/>
-  <text x="210" y="145" fill="#f4f9fc" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-1">bioinfo-ccnu</text>
+  <text x="210" y="145" fill="#f4f9fc" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">CCNU Bioinformatics</text>
   <text x="213" y="191" fill="#b9d6df" font-family="Arial, Helvetica, sans-serif" font-size="24">AI for Biomolecular Research</text>
 </svg>

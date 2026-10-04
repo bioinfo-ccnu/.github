@@ -1,23 +1,23 @@
-name: "功能建议 / Feature request"
-description: "建议功能、流程或文档改进 / Suggest an improvement"
+name: Feature request
+description: Suggest a feature, workflow, or documentation improvement
 title: "[Feature] "
 body:
   - type: textarea
     id: need
     attributes:
-      label: "需求与场景 / Use case"
-      description: "希望解决什么问题？当前做法有哪些困难？"
+      label: Use case
+      description: What problem would this solve? What is difficult with the current approach?
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: "建议方案 / Proposal"
-      description: "描述希望的行为、示例或参考资料。"
+      label: Proposed improvement
+      description: Describe the desired behavior and include examples or references.
     validations:
       required: true
   - type: textarea
     id: validation
     attributes:
-      label: "如何验证 / Validation"
-      description: "什么结果代表改进有效？有无替代方案或已知限制？"
+      label: Validation and alternatives
+      description: How would success be assessed? Are there alternatives or known limitations?
