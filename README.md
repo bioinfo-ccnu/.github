@@ -1,24 +1,23 @@
-# bioinfo-ccnu · 组织配置
+# bioinfo-ccnu
 
-这里维护 [bioinfo-ccnu](https://github.com/bioinfo-ccnu) 的公开首页、默认协作说明与反馈模板。
+Organization profile and shared repository resources for [bioinfo-ccnu](https://github.com/bioinfo-ccnu).
 
-| 文件 | 用途 |
-| --- | --- |
-| [`profile/README.md`](profile/README.md) | 展示在组织首页的中英文介绍 |
-| [`profile/banner.svg`](profile/banner.svg) | 首页横幅，可直接修改 SVG |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | 默认贡献指南 |
-| [`SUPPORT.md`](SUPPORT.md) | 获取帮助与交流的入口 |
-| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | 问题反馈、功能建议与交流表单 |
-| [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) | Pull Request 说明模板 |
-| [`docs/starting-a-project.md`](docs/starting-a-project.md) | 新项目的命名、结构与复现说明建议 |
-| [`docs/repository-readme-template.md`](docs/repository-readme-template.md) | 可复制到新项目的 README 模板 |
+Our research interests include protein and antibody language models, RNA structure prediction, molecular docking, protein sequence–structure–function relationships, and peptide therapeutics.
 
-## 维护说明
+Learn more about [Lei Wang's research and publications](https://wangleiofficial.github.io/).
 
-- 修改 `profile/README.md` 并合并到默认分支即可更新组织首页。
-- 默认贡献指南、帮助说明和 Issue / PR 模板会供组织内缺少相应配置的仓库使用；项目可提供自己的文件覆盖默认内容。详见 [GitHub 默认社区文件文档](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)。
-- 横幅使用默认分支 `main` 的资源地址；调整分支名时需同步更新首页图片链接。
-- 新增研究项目后，可将其加入首页导航并在组织页面置顶。
-- 每个项目分别明确代码、文档和数据的许可证，以及适用的引用方式。本仓库不为其他仓库自动赋予许可证。
+## Profile Files
 
-欢迎通过 [Issue](https://github.com/bioinfo-ccnu/.github/issues/new/choose) 建议首页内容、学习资源或协作方式。
+- [`profile/README.md`](profile/README.md): the public organization homepage.
+- [`profile/banner.svg`](profile/banner.svg): the homepage banner.
+
+## Shared Resources
+
+- [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution guidelines.
+- [`SUPPORT.md`](SUPPORT.md): help and feedback channels.
+- [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/): issue forms.
+- [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md): pull request template.
+- [`docs/starting-a-project.md`](docs/starting-a-project.md): guidance for new repositories.
+- [`docs/repository-readme-template.md`](docs/repository-readme-template.md): a reusable project README template.
+
+To update the organization homepage, edit `profile/README.md` on the default branch. The banner URL currently uses `main`.

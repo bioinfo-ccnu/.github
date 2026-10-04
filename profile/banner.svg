@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
   <title id="title">bioinfo-ccnu</title>
-  <desc id="desc">Bioinformatics, reproducible research and collaboration, with a DNA helix and a connected network.</desc>
+  <desc id="desc">AI for biomolecular research, with a DNA helix and a connected network.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102a43"/><stop offset="1" stop-color="#104b4a"/></linearGradient>
     <linearGradient id="dna" x2="0" y2="1"><stop stop-color="#62dfcb"/><stop offset="1" stop-color="#82b9f7"/></linearGradient>
@@ -22,5 +22,5 @@
   </g>
   <rect x="211" y="70" width="43" height="4" rx="2" fill="#62dfcb"/>
   <text x="210" y="145" fill="#f4f9fc" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-1">bioinfo-ccnu</text>
-  <text x="213" y="191" fill="#b9d6df" font-family="Arial, Helvetica, sans-serif" font-size="21">Bioinformatics · Reproducible Research · Collaboration</text>
+  <text x="213" y="191" fill="#b9d6df" font-family="Arial, Helvetica, sans-serif" font-size="24">AI for Biomolecular Research</text>
 </svg>
